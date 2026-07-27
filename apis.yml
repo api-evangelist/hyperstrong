@@ -1,8 +1,17 @@
 aid: hyperstrong
 name: HyperStrong
-description: 'HyperStrong is a company surfaced as a portfolio company of idg-capital, qiming and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer-technology. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'HyperStrong (Beijing HyperStrong Technology Co., Ltd. / 北京海博思创科技股份有限公司,
+  SSE: 688411) is a leading Chinese provider of battery energy storage systems (BESS) and integrated
+  energy solutions. Founded in 2011 and headquartered in Beijing, the company designs and manufactures
+  modular liquid-cooled storage systems (HyperBlock and HyperCube series), integrated solar-plus-storage
+  and charging-storage units, and the core control stack of battery management systems (BMS), energy
+  management systems (EMS), and power conversion systems (PCS), alongside its HyperCloud AI cloud
+  platform for fleet monitoring and optimization. HyperStrong serves generation-side, grid-side, and
+  user-side (commercial, industrial, and residential) storage markets, ranking among the top domestic
+  and global players by cumulative installed capacity with 60+ GWh deployed across 400+ projects. It
+  is backed by IDG Capital and Qiming Venture Partners. This profile is maintained in the API Evangelist
+  network; HyperStrong is a hardware and energy-platform company and does not publish a public developer
+  API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/hyperstrong/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +20,30 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.hyperstrong.com/favicon.png
 tags:
 - Company
 - Consumer Technology
+- Energy Storage
+- Battery
+- Renewable Energy
+- Clean Energy
+- Energy Management
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +51,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/hyperstrong-domain-security.yml
 - type: Website
-  url: https://hyperstrong.net
+  url: https://www.hyperstrong.com
+- type: Blog
+  url: https://www.hyperstrong.com/news/company-news
+- type: PrivacyPolicy
+  url: https://www.hyperstrong.com/privacy-policy
+- type: TermsOfService
+  url: https://www.hyperstrong.com/terms-of-use
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
