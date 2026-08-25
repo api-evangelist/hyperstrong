@@ -1,0 +1,7 @@
+---
+title: "Produktdatenblatt"
+url: "https://www.hyperstrong.com/de/resource-center/product-datasheet"
+date: "2026-08-20"
+feed_url: "https://www.hyperstrong.com/rss.xml"
+---
+Produktdatenblatt
